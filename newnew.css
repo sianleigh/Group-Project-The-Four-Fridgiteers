@@ -2,6 +2,9 @@
 body {
   background: lightblue;
   background-image:url("italianfood.jpg");
+  background-repeat:no-repeat;
+ background-size: cover;
+ background-position: center;
   font-family:"Future Stn";
   letter-spacing:3px;
 }
