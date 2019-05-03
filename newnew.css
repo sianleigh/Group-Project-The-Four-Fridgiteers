@@ -31,7 +31,3 @@ h2
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
   font-size:+3;}
-
-  .sidenav a:hover {
-  color: #f1f1f1;
-}
