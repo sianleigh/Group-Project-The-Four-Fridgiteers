@@ -33,27 +33,5 @@ h2
     padding-top: 20px;
   font-size:+3;}
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeinbg {
-    from {
-        background-image: none;
-    }
-    to {
-        background:url('e.jpg') no-repeat;
-    }
-}
-
-.container {
-    animation: fadein 4s;
-}
-
-.body {
-    animation: fadeinbg 4s;
+li{ color: transparent
+  transition: 6s ease
