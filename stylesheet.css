@@ -2,10 +2,7 @@
 body {
   background: lightblue;
   background-image:url("e.jpg"); no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  
   
   font-family:"Future Stn";
   letter-spacing:1px;
