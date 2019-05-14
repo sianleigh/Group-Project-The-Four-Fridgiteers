@@ -32,3 +32,8 @@ h2
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
   font-size:+3;}
+
+#wrapper{
+    background-image:url('some-image.jpg');
+    display:none;
+}
