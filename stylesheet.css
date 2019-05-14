@@ -1,9 +1,12 @@
 
 body {
   background: lightblue;
-  background-image:url("d.jpg");
-  background-repeat: round
- background-position: center;
+  background-image:url("d.jpg"); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
   font-family:"Future Stn";
   letter-spacing:1px;
 }
