@@ -11,6 +11,31 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   
+  @keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinbg {
+    from {
+        background-image: none;
+    }
+    to {
+        background:url('e.jpg') no-repeat;
+    }
+}
+
+.container {
+    animation: fadein 2s;
+}
+
+.body {
+    animation: fadeinbg 2s;
+  
 
     <h1>
     <div style="background-color:darkred;opacity: 0.8;color:white;width:100%;padding:0.2%"><font size ="+20">FRIDGIT
