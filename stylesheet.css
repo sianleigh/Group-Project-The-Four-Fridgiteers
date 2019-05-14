@@ -2,7 +2,7 @@
 body {
   background: lightblue;
   background-image:url("d.jpg");
-  background-repeat: no-repeat
+  background-repeat: round
  background-position: center;
   font-family:"Future Stn";
   letter-spacing:1px;
