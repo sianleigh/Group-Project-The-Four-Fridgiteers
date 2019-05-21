@@ -1,8 +1,9 @@
 
 body {
   background: lightblue;
-  background-image:url("italianfood.jpg");
- background-position: right;
+  background-image:url("e.jpg"); no-repeat center center fixed; 
+  
+  
   font-family:"Future Stn";
   letter-spacing:1px;
 }
@@ -31,3 +32,9 @@ h2
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
   font-size:+3;}
+
+#opening {
+  transition: 6s ease
+}
+ 
+  
