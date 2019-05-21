@@ -1,17 +1,32 @@
-<h1>Recipes</h1>
-<body>
+<html>
+<head>
 
-<div id = "search">
+  <link rel="stylesheet" type="text/css" href="recipe.css">
+  <script type="text/javascript" src="javascript.js"></script>
+  <link href= = https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+<h1>Recipe Generator</h1>
+
+<h2>Hi! Type in an ingredient and how many recipes you want in the below box and it will work </<h2>
+
+<div id="search">
 <div class="search_form">
   <input class='query' placeholder="Search..."/>
-  <input input type="number" class='limit' max="20" min="1" placeholder="number of results..."/>
+  <input input type="number" class='limit' max="20" min="1" placeholder="Number of results..."/>
 
   <div class='health_selection'>
     <input type="radio" name="health" value="vegetarian" checked="checked"> Vegetarian
     <input type="radio" name="health" value="vegan"> Vegan
 
-
-  <button onclick= getRecipes()>submit</button>
+<br><br>
+  <button onclick= getRecipes()>Submit</button>
 
 
 <div id="error_message"></div>
@@ -19,11 +34,16 @@
 <ul class="recipes"></ul>
 
 </div>
+</div>
 
-<link rel="stylesheet" type="text/css" href="recipe.css">
-<script type="text/javascript" src="javascript.js"></script>
-<link href= = https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js></link>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<div class="sidenav">
+  <a href="#"><font size = "+0.5"><a href="Aboutus.html"><font color = white>About</a><br>
+  </br><a href="services.html"><font color = white>Services</a><br>
+  </br><a href="recipes.html"><font color = white>Recipes</a><br>
+  </br><a href="contactform.html"><font color = white>Contact</a><br>
+  </br><a href="index.html"><font color = white>Home</a><br>
+</div>
+
+
 </body>
 </html>

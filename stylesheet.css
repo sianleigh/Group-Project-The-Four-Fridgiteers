@@ -1,24 +1,23 @@
 
-body {
-  background: lightblue;
-  background-image:url("e.jpg"); no-repeat center center fixed; 
-  
-  
-  font-family:"Future Stn";
-  letter-spacing:1px;
-}
-
 h1
 {
   text-align:center;
   font-family:"verdana";
 letter-spacing:20px;
-font-size:+20}
+font-size:+20;  }
 
 h2
-{font-family:"verdana"
-    letter-spacing: 5px;
-  font-size:+15}
+{font-family:"verdana";
+letter-spacing: 5px;
+  font-size:+15;
+color:white;}
+
+body {
+  background-image:url("e.jpg"); no-repeat center center fixed;
+  font-family:"Future Stn";
+  letter-spacing:1px;
+}
+
 
   .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -36,5 +35,3 @@ h2
 #opening {
   transition: 6s ease
 }
- 
-  
