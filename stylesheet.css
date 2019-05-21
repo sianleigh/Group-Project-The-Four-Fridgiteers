@@ -35,3 +35,11 @@ body {
 #opening {
   transition: 6s ease
 }
+
+#welcome {
+    background: rgba(85,91,102,0.8);
+    text-align: center;
+  margin-left:15%;
+margin-right:6%;
+text-align:center;
+}
